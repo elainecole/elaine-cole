@@ -43,6 +43,9 @@
                 padding: 200px;
                 text-align: center;
             }
+            .mc-content {
+                padding: 5px;
+            }
         </style>
 
         <title>Elaine M. Cole</title>
@@ -76,43 +79,33 @@
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
-                        <li><a href="">
+                        <li><a data-target="#modalContact" data-toggle="modal">
                                 <i class="material-icons">chat</i>
                             </a>
                         </li>
-                        <!-- <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">One more separated link</a></li>
-                            </ul>
-                        </li> -->
                     </ul>
                 </div>
             </div>
         </nav>
-        <!-- <div class="title-div">
-            <p class="lead">Elaine Meredith Cole</p>
-        </div> -->
-        <div class="" id="dash">
-            <!-- <div class="row-1">
-               <div class="row">
-                   <div class="table-1 col-md-8">.col-md-8</div>
-                   <div class="tray-1 col-md-4">.col-md-4</div>
-               </div>
-            </div>
-            <div class="row-2">
-                <div class="row">
-                    <div class="box-1 col-md-4">.col-md-4</div>
-                    <div class="box-2 col-md-4">.col-md-4</div>
-                    <div class="tray-2 col-md-4">.col-md-4</div>
+        <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalContact" id="modalContact" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content mc-content">
+                    <div class="mc-header">
+                        <p class="lead">
+                        Contact Me.
+                        </p>
+                    </div>
+                    <div class="mc-body">
+                        <p class="lead" style="text-align:right"><small><small>
+                            <a href="mailto:elaine@elainemcole.com" target="_top"><i class="material-icons">mail</i></a><br><br>
+                            <a href="linkedin.com/elainemcole" target="_top">LinkedIn</a><br><br>
+                            <a href="https://www.linkedin.com/in/elainemcole" target="_blank">Resume</a>
+                        </small></small></p>
+                    </div>
                 </div>
-            </div> -->
+            </div>
+        </div>
+        <div class="" id="dash">
         </div>
 
 
@@ -123,25 +116,13 @@
         </div>
     </body>
     <footer>
-        <div class="" id="contact">
-            <div class="col-md-4">
-                <p class="lead"><small>
-                    ElaineMCole.com</small>
-                </p>
-            </div>
-            <div class="col-md-6" style="text-align: right;">
-                <!-- <a href="mailto:elaine@elainemcole.com">
-                    <i class="material-icons">email</i>
-                </a>
+        <div class="col-md-8">
 
-                <a href="https://www.linkedin.com/pub/elaine-meredith-cole/ba/285/598" target="_blank" style="text-decoration:none;">
-                    <span style="color: #427AA1;">
-                        <p class="lead" style="font-size: 10px;"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" width="3%" alt="View Elaine Meredith Cole's LinkedIn profile" style="vertical-align:middle;" border="0">&nbsp;View Elaine Cole's profile</p>
-                    </span>
-                </a> -->
-            </div>
-            <div class="col-md-2" style="text-align: right;">
-            </div>
+        </div>
+        <div class="col-md-4" style="text-align:right; padding-right: 15px;">
+            <p class="lead"><small>
+                ElaineMCole.com</small>
+            </p>
         </div>
     </footer>
 
